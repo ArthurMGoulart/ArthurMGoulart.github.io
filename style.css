@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(3, 92, 0);
+    color:wheat;
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    font-family: 'Share Tech Mono', monospace;
+}
+#nome{
+    color:whitesmoke;
+    font-family: 'Aladin', cursive;
+    font-size: 4em;
+}
+#eu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+#habilidades{
+    font-size: 30px;
+}
+#habilidadesTitulo{
+    font-size: 2.5em;
+    color: gold;
+}
+#itemMaior{
+    font-size: 1.4em;
+}
+#itemMedio{
+    font-size: 1.2em;
+}
+table{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
