@@ -13,26 +13,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <h1 id="nome">Arthur Migotto Goulart</h1>
-    <img id="eu" src="eu.png" alt="Eu sorrindo de camisa ciano" width="250px">
-    <p>Tenho um apelido de infância que levo até hoje, <em>Budi</em>.
-    </p>
-    <p>Natural de Caxias do Sul/RS também conhecida como a peróla da colonização italiana.</p>
+    <div id="header">
+        <h1 id="nome">Arthur Migotto Goulart</h1>
+        <img id="eu" src="eu.png" alt="Eu sorrindo de camisa ciano" width="250px">
+        <p class="descricao">Tenho um apelido de infância que levo até hoje, <em>Budi</em>.
+        </p>
+        <p class="descricao">Natural de Caxias do Sul/RS também conhecida como a peróla da colonização italiana.</p>
+    </div>
     <hr>
     <ol id="habilidades"><span id="habilidadesTitulo">Habilidades: </span>
-        <li id="itemMaior"><strong>Lógica/Xadrez</strong></li>
-        <li id="itemMedio">Basquete</li>
-        <li id="itemPequeno">League of Legends</li>
-    </ol>
+        <li id="itemMaior" class="itemHabilidade itemImpar"><strong>Lógica/Xadrez</strong></li>
+        <li id="itemMedio" class="itemHabilidade">Basquete</li>
+        <li id="itemPequeno" class="itemHabilidade itemImpar">League of Legends</li>
+    </ol>   
     <hr>
-    <a href="#eu">Minha Foto</a>
-    <br>
-    <a href="http://www.lakersbrasil.com/" target="_blank">Blog bom</a>
-    <ul> Indíce de Navegação
+    <ul id="indice"> <span id="tituloIndice">Indíce de Navegação</span>
         <li><a href="#habilidades">Vá para habilidades</a></li>
         <li><a href="#nome">Vá para nome</a></li>
     </ul>
+    <hr>    
+    <div id="links">
+        <span id="indiceTitulo">Links</span>
+        <br>
+        <a class="link" href="#eu">Minha Foto</a>
+        <br>
+        <a class="link" href="http://www.lakersbrasil.com/" target="_blank">Blog do lakersbrasil</a>
+    </div>
+    <hr>
     <table>
         <tr>
             <th>País</th>
