@@ -11,6 +11,8 @@ p{
     color:whitesmoke;
     font-family: 'Aladin', cursive;
     font-size: 4em;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #eu{
     display: block;
